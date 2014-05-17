@@ -9,6 +9,8 @@ Project("{CB79DBE7-60B7-3689-EBE3-DEBF1DA3FA35}") = "DublinGameCraft6", "Assembl
 EndProject
 Project("{CB79DBE7-60B7-3689-EBE3-DEBF1DA3FA35}") = "DublinGameCraft6", "Assembly-UnityScript-firstpass.unityproj", "{8024CF53-D066-E451-DF19-BE15C5381740}"
 EndProject
+Project("{CB79DBE7-60B7-3689-EBE3-DEBF1DA3FA35}") = "DublinGameCraft6", "Assembly-UnityScript-Editor.unityproj", "{A04F1F4E-4B67-7921-0B7C-6BE4C5F47C22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,11 +33,15 @@ Global
 		{8024CF53-D066-E451-DF19-BE15C5381740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8024CF53-D066-E451-DF19-BE15C5381740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8024CF53-D066-E451-DF19-BE15C5381740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A04F1F4E-4B67-7921-0B7C-6BE4C5F47C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04F1F4E-4B67-7921-0B7C-6BE4C5F47C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04F1F4E-4B67-7921-0B7C-6BE4C5F47C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04F1F4E-4B67-7921-0B7C-6BE4C5F47C22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-												GlobalSection(MonoDevelopProperties) = preSolution
+																						GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
