@@ -7,10 +7,10 @@ public class Thruster : MonoBehaviour
 	public string VerticalAxisName;
 	public float MaxParticleLifetime = 0.21f;
 
-	void Start () 
+	void Start ()
 	{
 	
-	} 
+	}
 	
 	void Update ()
 	{
