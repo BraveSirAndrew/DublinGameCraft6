@@ -22,6 +22,6 @@ public class BouncyThing : MonoBehaviour
 	{
 		var direction = collision.rigidbody.velocity.normalized;
 		var mag = collision.rigidbody.velocity.magnitude;
-		collision.rigidbody.AddForce(Vector3.Reflect(direction, collision.contacts[0].normal) * mag * Bounciness, ForceMode.Impulse);
+		collision.rigidbody.AddForce(collision.contacts[0].thisCollider.transform.right * Bounciness, ForceMode.Impulse);
 	}
 }
