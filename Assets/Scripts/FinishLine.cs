@@ -57,7 +57,14 @@ public class FinishLine : MonoBehaviour {
 		CurrentLap = _crossingRecord [other.gameObject];
 
 		if (_crossingRecord [other.gameObject] >= Laps) {
-			//#Winz
+			if(other.transform.parent.name == "Player1")
+			{
+				transform.Find("WinScreen1").gameObject.SetActive(true);
+			}
+			else
+			{
+				transform.Find("WinScreen2").gameObject.SetActive(true);
+			}
 		}
 	}
 	
