@@ -5,6 +5,7 @@ using System.Collections;
 public class BoostPad : MonoBehaviour 
 {
 	public float Force;
+	public Vector3 Direction;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +16,7 @@ public class BoostPad : MonoBehaviour
 	void Update () 
 	{
 		var thrusters = GameObject.FindGameObjectsWithTag ("Thruster");
-		var direction = transform.TransformDirection(new Vector3 (0, 0, 1));
+		var direction = transform.TransformDirection(Direction);
 
 		foreach (var thruster in thrusters) 
 		{
