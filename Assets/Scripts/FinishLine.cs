@@ -59,12 +59,12 @@ public class FinishLine : MonoBehaviour {
 		if (_crossingRecord [other.gameObject] >= Laps) {
 			if(other.transform.parent.name == "Player1")
 			{
-				GameObject.Find("WinScreen1").transform.position = Vector3.zero;
+				GameObject.Find("WinScreen1").transform.position = new Vector3(0.5f, 0.5f, 0);
 				Time.timeScale = 0;
 			}
 			else
 			{
-				GameObject.Find("WinScreen2").transform.position = Vector3.zero;
+				GameObject.Find("WinScreen2").transform.position = new Vector3(0.5f, 0.5f, 0);
 				Time.timeScale = 0;
 			}
 		}
